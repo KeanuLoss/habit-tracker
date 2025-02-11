@@ -14,3 +14,13 @@ with sqlite3.connect(db_name) as db:
     else:
         print("The habit table is empty.")
 
+    cur.execute("SELECT * from reset_log") # fetch all rows from the reset_log table
+    missed_time_rows = cur.fetchall()
+
+    if missed_time_rows:
+        print("Database Content:")
+        for row in missed_time_rows:
+            print(row)
+    else:
+        print("The reset_log table is empty.")
+
