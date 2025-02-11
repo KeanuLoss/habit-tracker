@@ -27,13 +27,13 @@ Follow these steps to install the project :\
 
 4. enter " pip install -r requirements.txt " in the terminal to install all the necessary dependencies\
 
-Usage of the application:\
+## Usage of the application
 
 1. run py main.py, the GUI will open an you can click the buttons for the desired action\
 2. follow the instructions in the entry windows that open automatically.\
 3. in case of wrong inputs pay attention to the error messages that pop up, they tell you what caused the error and what input is needed.\
 
-Testing the code:\
+## Testing the code
 
 You run the tests by entering " pytest -v " in the terminal, this runs every test function.\
 
