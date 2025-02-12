@@ -14,32 +14,32 @@ It comes with a graphical user interface to ensure an intuitive user experience.
 
 
 ## Which requirements are necessary for installation ? 
-For the GUI as well as the pytests it is required to install multiple dependencies.\
+For the GUI as well as the pytests it is required to install multiple dependencies.  
 
-Follow these steps to install the project :\
+Follow these steps to install the project :  
 
-1. clone the repository to your local machine:\
+1. clone the repository to your local machine:  
 
-2. create a virtual environment by entering " py -m venv .virtual_environment " in the terminal\
+2. create a virtual environment by entering " py -m venv .virtual_environment " in the terminal  
 
-3. activate the venv by entering " source .virtual_environment/Scripts/activate\
-" source virtual_environment/bin/activate on Linux / apple systems\
+3. activate the venv by entering " source .virtual_environment/Scripts/activate  
+" source virtual_environment/bin/activate on Linux / apple systems  
 
-4. enter " pip install -r requirements.txt " in the terminal to install all the necessary dependencies\
+4. enter " pip install -r requirements.txt " in the terminal to install all the necessary dependencies  
 
 ## Usage of the application
 
-1. run py main.py, the GUI will open an you can click the buttons for the desired action\
-2. follow the instructions in the entry windows that open automatically.\
-3. in case of wrong inputs pay attention to the error messages that pop up, they tell you what caused the error and what input is needed.\
+1. run py main.py, the GUI will open an you can click the buttons for the desired action  
+2. follow the instructions in the entry windows that open automatically.  
+3. in case of wrong inputs pay attention to the error messages that pop up, they tell you what caused the error and what input is needed.  
 
 ## Testing the code
 
-You run the tests by entering " pytest -v " in the terminal, this runs every test function.\
+You run the tests by entering " pytest -v " in the terminal, this runs every test function.  
 
-If you only want to test a specific file enter " pytest filename ".\
-Example: \
-pytest test_habits.py\
-pytest test_HabitManager.py\
-pytest test_main.py\
+If you only want to test a specific file enter " pytest filename ".  
+Example:  
+pytest test_habits.py  
+pytest test_HabitManager.py  
+pytest test_main.py  
 
