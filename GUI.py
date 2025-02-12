@@ -1,9 +1,9 @@
 import customtkinter as ctk
 from CTkMessagebox import CTkMessagebox
 import tkinter as tk
-from tkinter import messagebox,StringVar
+from tkinter import StringVar
 from habit_manager import HabitManager
-import sys
+
 
 
 class HabitGUI:
