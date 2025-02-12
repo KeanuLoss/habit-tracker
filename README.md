@@ -24,8 +24,9 @@ Follow these steps to install the project :
 2. create a virtual environment by entering  
     " py -m venv .virtual_environment " in the terminal  
 
-3. activate the venv by entering " source .virtual_environment/Scripts/activate "    
-" source virtual_environment/bin/activate " on Linux / apple systems  
+3. activate the venv by entering  
+    " source .virtual_environment/Scripts/activate "     
+    " source virtual_environment/bin/activate " on Linux / apple systems  
 
 4. enter " pip install -r requirements.txt " in the terminal to install all the necessary dependencies  
 
