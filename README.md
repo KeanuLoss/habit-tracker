@@ -42,8 +42,9 @@ Follow these steps to install the project :
 You run the tests by entering " pytest -v " in the terminal, this runs every test function.  
 
 If you only want to test a specific file enter " pytest filename ".  
+
 Example:  
-pytest test_habits.py  
-pytest test_HabitManager.py  
-pytest test_main.py  
+* pytest test_habits.py  
+* pytest test_HabitManager.py  
+* pytest test_main.py  
 
