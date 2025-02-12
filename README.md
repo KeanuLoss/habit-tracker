@@ -2,14 +2,14 @@
 This application lets users create habits, monitor their progress, helps them to stay motivated and keep track of what habits they still need to work on.
 
 ## Functionality of the application
-The application lets the user add habits with a specific name & periodicity.\
-The user can choose between daily, weekly, monthly or custom periodicities, like every 2 / 3 / 5 / ... days.\
-The user can delete habits by entering the respective habit name inside an entry window.\
-The user can check off each habit by entering the respective habit name inside an entry window.\
-The user can display all habits, sort them by periodicity and analyze them to figure out what the user is doing good and what he / she is struggling with.\
+* The application lets the user add habits with a specific name & periodicity.  
+* The user can choose between daily, weekly, monthly or custom periodicities, like every 2 / 3 / 5 / ... days.  
+* The user can delete habits by entering the respective habit name inside an entry window.  
+* The user can check off each habit by entering the respective habit name inside an entry window.  
+* The user can display all habits, sort them by periodicity and analyze them to figure out what the user is doing good and what he / she is struggling with.  
 
-This project is build with Python and stores the habit data in a SQLite3 database as well as an in-memory dictionary.\
-It comes with a graphical user interface to ensure an intuitive user experience.\
+This project is build with Python and stores the habit data in a SQLite3 database as well as an in-memory dictionary.  
+It comes with a graphical user interface to ensure an intuitive user experience.  
 
 
 
@@ -22,8 +22,8 @@ Follow these steps to install the project :
 
 2. create a virtual environment by entering " py -m venv .virtual_environment " in the terminal  
 
-3. activate the venv by entering " source .virtual_environment/Scripts/activate  
-" source virtual_environment/bin/activate on Linux / apple systems  
+3. activate the venv by entering " source .virtual_environment/Scripts/activate "    
+" source virtual_environment/bin/activate " on Linux / apple systems  
 
 4. enter " pip install -r requirements.txt " in the terminal to install all the necessary dependencies  
 
