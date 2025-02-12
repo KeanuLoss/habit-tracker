@@ -19,12 +19,12 @@ For the GUI as well as the pytests it is required to install multiple dependenci
 
 Follow these steps to install the project :  
 
-1. clone the repository to your local machine:  
+1. clone the repository to your local machine :  
 
-2. create a virtual environment by entering  
+2. create a virtual environment by entering : 
     " py -m venv .virtual_environment " in the terminal  
 
-3. activate the venv by entering  
+3. activate the venv by entering :  
     " source .virtual_environment/Scripts/activate "     
     " source virtual_environment/bin/activate " on Linux / apple systems  
 
@@ -32,9 +32,10 @@ Follow these steps to install the project :
 
 ## Usage of the application
 
-1. run the " main.py " -> the GUI will open an you can click the buttons for the desired action  
-2. follow the instructions in the entry windows that open automatically.  
-3. in case of wrong inputs pay attention to the error messages that pop up, they tell you what caused the error and what input is needed.  
+1. run the " main.py "
+2. the GUI will open an you can click the buttons for the desired action  
+3. follow the instructions in the entry windows that open automatically.  
+4. in case of wrong inputs pay attention to the error messages that pop up, they tell you what caused the error and what input is needed.  
 
 ## Testing the code
 
