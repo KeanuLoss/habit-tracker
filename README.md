@@ -21,7 +21,7 @@ Follow these steps to install the project :
 
 1. clone the repository to your local machine:  
 
-2. create a virtual environment by entering 
+2. create a virtual environment by entering  
     " py -m venv .virtual_environment " in the terminal  
 
 3. activate the venv by entering " source .virtual_environment/Scripts/activate "    
